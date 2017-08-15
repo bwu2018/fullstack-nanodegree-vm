@@ -14,14 +14,14 @@ CREATE DATABASE tournament;
 
 
 CREATE TABLE players (
-	id serial primary key,
-	name text
+	id SERIAL PRIMARY KEY,
+	name TEXT
 );
 
 CREATE TABLE matches (
-	id serial primary key,
-	winner int references players(id),
-	loser int references players(id)
+	id SERIAL PRIMARY KEY,
+	winner INT REFERENCES players(id),
+	loser INT REFERENCES players(id)
 );
 
 CREATE VIEW wins AS
