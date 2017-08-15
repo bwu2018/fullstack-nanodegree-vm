@@ -11,8 +11,8 @@ Run the following commands in your terminal:
 * \c tournament
 * \i tournament.sql
 * \q
-Then run the tournament_test file:
-* python tournament_test.py
+
+Then run the tournament_test file: python tournament_test.py
 
 #Installation
 Install Vagrant, psql, and Virtual Box
